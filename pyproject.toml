@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ray-inheritance-test"
+version = "0.1.0"
+description = ""
+authors = ["Martin Hwang <dhhwang89@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+ray = "^1.9.1"
+numpy = "1.19.3"
+pandas = "1.1.1"
+scikit-learn = "^1.0.2"
+lightgbm = "^3.3.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
